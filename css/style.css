@@ -32,6 +32,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    filter: drop-shadow(0 0 60px rgba(0, 140, 255, 0.6))
+  drop-shadow(0 0 100px rgba(0, 140, 255, 0.4));
 }
 
 .content img {
@@ -40,9 +42,8 @@ body {
     height: auto;
     margin-bottom: 2rem;
     
-  /* Эффект сияния */
-  filter: drop-shadow(0 0 60px rgba(0, 140, 255, 0.6))
-  drop-shadow(0 0 100px rgba(0, 140, 255, 0.4));
+
+
 }
 
 .title {
