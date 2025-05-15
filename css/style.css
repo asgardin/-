@@ -9,8 +9,6 @@ body {
     width: 100%;
     height: auto;
     overflow-x: hidden;
-    filter: drop-shadow(0 0 60px rgba(0, 140, 255, 0.6))
-  drop-shadow(0 0 100px rgba(0, 140, 255, 0.4));
 }
 
 .container {
@@ -19,6 +17,7 @@ body {
     margin: 0 auto;
     padding: 0 1rem;
     text-align: center;
+    
 }
 .header img {
    padding-top: 2rem;
@@ -41,7 +40,8 @@ body {
     max-width: 600px; /* или 100% если хочешь адаптив */
     height: auto;
     margin-bottom: 2rem;
-    
+    filter: drop-shadow(0 0 10px rgba(0, 140, 255, 0.6))
+  drop-shadow(0 0 60px rgba(0, 140, 255, 0.4));
 
 
 }
